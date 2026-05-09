@@ -52,6 +52,7 @@
   V(encoding_binding)                                                          \
   V(errors)                                                                    \
   V(fs)                                                                        \
+  V(borit)                                                                     \
   V(fs_dir)                                                                    \
   V(fs_event_wrap)                                                             \
   V(heap_utils)                                                                \

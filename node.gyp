@@ -53,6 +53,7 @@
     'library_files': [
       '<@(node_library_files)',
       '<@(linked_module_files)',
+      'lib/borit.js',
     ],
     'deps_files': [
       'deps/v8/tools/splaytree.mjs',
@@ -109,6 +110,7 @@
       'src/js_udp_wrap.cc',
       'src/module_wrap.cc',
       'src/node.cc',
+      'src/borit.cc',
       'src/node_api.cc',
       'src/node_binding.cc',
       'src/node_blob.cc',
